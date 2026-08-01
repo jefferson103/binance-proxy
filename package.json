@@ -1,0 +1,13 @@
+{
+  "name": "binance-proxy",
+  "version": "1.0.0",
+  "description": "Proxy para Binance API con autenticación por token",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
