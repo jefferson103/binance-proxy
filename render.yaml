@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: binance-proxy
+    env: docker
+    region: oregon
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PROXY_TOKEN
+        sync: false
